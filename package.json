@@ -1,0 +1,5 @@
+{
+    "scripts": {"watch": "webpack --watch --progress --mode=development --config=webpack.mix.js"},
+    "devDependencies": {"@tailwindcss/aspect-ratio":"^0.4.2","@vue/compiler-sfc":"^3.2.39","autoprefixer":"^10.4.11","laravel-mix":"^6.0.49","postcss":"^8.4.16","tailwindcss":"^3.1.8"},
+    "dependencies":{"axios":"^0.27.2","vue":"^3.2.36"}
+}
