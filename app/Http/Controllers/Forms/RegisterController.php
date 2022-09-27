@@ -15,7 +15,7 @@ class RegisterController
             ->header('Content-Type', 'application/json');
     }
     public function index(){
-        $users = User::all();
+        $users = User::orderByDesc('id')->get();
         return response(['data'=>$users], 200)
             ->header('Content-Type', 'application/json');
     }
